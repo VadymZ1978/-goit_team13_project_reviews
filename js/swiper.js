@@ -3,7 +3,7 @@ $(function () {
     slidesToShow: 1,
     slidesToScroll: 1,
     dots: true,
-    speed: 1600,
+    speed: 1200,
 
   });
 });
