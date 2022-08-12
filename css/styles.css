@@ -4,13 +4,12 @@ body {
 
 /* Reviews styles */
 .swiper-container {
-  display: flex;
   text-align: center;
   justify-content: center;
   width: 100%;
   background:#fff;
   font-family: "DM Sans";
-  /* padding-bottom: 164px; */
+  padding-bottom: 64px;
 }
 
 .person {
@@ -156,12 +155,6 @@ body {
   }
 }
 
-.swiper-wrapper {
-  max-height: 590px;
-  display: flex;
-  flex-direction: row;
-}
-
 /* Slider styles */
 
 /* Dots */
@@ -176,10 +169,6 @@ body {
   list-style: none;
 }
 
-.slick-dots li button::before {
-
-}
-
 /* .slick-dots li.slick-active button:before {
   font-size: 0;
   border-radius: 50%;
@@ -189,12 +178,13 @@ body {
 .slick-dots li button#slick-slide-control00::before {
   font-size: 0;
   content: url(../src/images/icons/home.svg);
-/* background-image: url(../src/images/icons/home.svg) ; */
   position: relative;
   display: flex;
   top:5px;
 }
 
+
+/* background-image: url(../src/images/icons/home.svg) ; */
 .slick-dots li button#slick-slide-control01::before,
 .slick-dots li button#slick-slide-control02::before {
   font-size: 12px;
